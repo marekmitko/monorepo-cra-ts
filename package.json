@@ -1,0 +1,13 @@
+{
+    "name": "monorepo-cra-ts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "lerna": "^5.4.3"
+    },
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ]
+}
